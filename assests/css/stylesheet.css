@@ -85,6 +85,11 @@ Layout Styles
         width: 66.6666%;
     }
 }
+@media (min-width: 48em) {
+    .pull-right-sm {
+        float: right;
+    }
+}
 
 /***************************
 ****************************
