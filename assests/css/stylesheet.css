@@ -71,12 +71,22 @@ Layout Styles
     padding-left: 15px;
     padding-right: 15px;
 }
+#col-empty {
+    min-height: 1px;
+}
+footer .row {
+    border-bottom: 1px solid #fff;
+}
 /* Media Query excludes extra small devices and includes small and above */
 @media (min-width: 48em) {
     [class*='col-'] {
         float: left;
     }
-    /* Column half */
+    /* Columns*/
+    .col-1-6 {
+        width: 50%;
+    }
+    /* Four Columns */
     .col-1-4 {
         width: 25%;
     }
