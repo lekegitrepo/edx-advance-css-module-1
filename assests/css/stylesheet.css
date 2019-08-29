@@ -74,7 +74,7 @@ Layout Styles
 #col-empty {
     min-height: 1px;
 }
-footer .row {
+footer .main-footer {
     border-bottom: 1px solid #fff;
 }
 /* Media Query excludes extra small devices and includes small and above */
@@ -96,7 +96,7 @@ footer .row {
     }
     /* Column half */
     .col-1-2 {
-        width: 50%;
+        width: 16.8333%;
     }
     /* Column Two Thirds */
     .col-2-3 {
